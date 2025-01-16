@@ -6,7 +6,7 @@ class Config:
         "scrollbar_padding": 2,
         "text_padding_left": 30,
         "width": 128,
-        "height": 40,
+        "height": 48,
         "use_extended_font": False
     }
 

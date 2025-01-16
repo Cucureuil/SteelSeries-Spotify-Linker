@@ -44,16 +44,19 @@ class SteelSeriesAPI:
             "game": GAME,
             "event": EVENT,
             "value_optional": True,
-            "handlers": [{
-                "device-type": "screened-128x40",
-                "mode": "screen",
-                "datas": [
-                    {
+            "handlers": [
+                {
+                    "device-type": "screened-128x48",
+                    "zone": "one",
+                    "mode": "screen",
+                    "datas": [
+                      {
                         "has-text": False,
-                        "image-data": [5 for _ in range(640)]
-                    }
-                ]
-            }]
+                        "image-data": [5 for _ in range(768)]
+                      }
+                    ]
+                }
+            ]
         })
 
         logging.info(self.LOGGING_PREFIX + " Binding game event")
@@ -64,7 +67,7 @@ class SteelSeriesAPI:
             "event": EVENT,
             "data": {
                 "frame": {
-                    "image-data-128x40": image
+                    "image-data": image
                 }
             }
         })

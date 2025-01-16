@@ -71,6 +71,7 @@ Music display may take some time due to API limitations. Data is retrieved by de
 ## 📚 Sources
 - [Spotify Web API](https://developer.spotify.com/documentation/web-api)
 - [SteelSeries GameSense™ SDK](https://github.com/SteelSeries/gamesense-sdk)
+- [SteelSeries SDK OLED Handlers](https://github.com/SteelSeries/gamesense-sdk/blob/5b69e245833fe661ea0a30d459e2cbcccb3e81e7/doc/api/standard-zones.md?plain=1#L64)
 
 ## 📧 Contact & Support ❤
 <div align="left">
